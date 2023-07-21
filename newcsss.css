@@ -1,0 +1,31 @@
+u{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:black;
+
+}
+li{
+    float:left;
+    border-right:2px solid white;
+
+}
+li:last-child{
+  border-right: none;
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding:15px 70px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active){
+  background-color: violet;
+}
+.active{
+  background-color: whitesmoke;
+}
+

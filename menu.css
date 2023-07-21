@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 20, 2023, 1:26:35 AM
+    Author     : Cloud
+*/
+
+ul {
+    list-style-type: none;
+    margin: 2.5;
+    padding: 2.5;
+    overflow: hidden;
+    background-color: #000;
+
+}
+li {
+    float: centre;
+    border-right: 2px solid #ccc;
+
+}
+li:last-child {
+  border-right: none;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 39px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: black;
+}
+.active {
+  background-color: yellow;
+}
+
